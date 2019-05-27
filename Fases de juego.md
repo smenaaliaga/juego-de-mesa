@@ -23,19 +23,19 @@ Cada fase se debe resolver tal como se indica a continuación, de no ser que un 
 
 3. *Fase de búsqueda*. El jugador deberá lanzar dos dados de visión + N dados de visión igual al número de **stats de visión**, y un dado de suerte. Si el héroe consigue al menos 2 éxitos de visión y la suerte corre a su favor podrá conseguir items dependiendo de sus resultados.
 
-  3.1.	Si consigue 2N éxitos de visión podrá reclamar N item(s) normal(es). Se deberá barajar las cartas de item normal y sacar la cantidad señalada al azar.
+    3.1.	Si consigue 2N éxitos de visión podrá reclamar N item(s) normal(es). Se deberá barajar las cartas de item normal y sacar la cantidad señalada al azar.
 
-  3.2.	Si consigue 3N éxitos de visión podrá reclamar N item(s) raros. Se deberá barajar las cartas de item raro y sacar la cantidad señalada al azar.
+    3.2.	Si consigue 3N éxitos de visión podrá reclamar N item(s) raros. Se deberá barajar las cartas de item raro y sacar la cantidad señalada al azar.
 
-  3.3.	Puede obtener también un mix entre item normales y raros dependiendo de si el número de éxitos de visión lo permite. Por ejemplo, si un héroe posee 3 stats de visión deberá lanzar 5 dados de visión más 1 dado de suerte. Si tiene la suficiente suerte, conseguirá 5 éxitos de visión y la suerte estará de su lado (osea que el dado de suerte indica éxito), entonces el héroe podrá decidir si reclama 1 item raro más 1 item normal (usa 5 éxitos de visión) o 2 item normales (usa 4 éxitos de visión).
+    3.3.	Puede obtener también un mix entre item normales y raros dependiendo de si el número de éxitos de visión lo permite. Por ejemplo, si un héroe posee 3 stats de visión deberá lanzar 5 dados de visión más 1 dado de suerte. Si tiene la suficiente suerte, conseguirá 5 éxitos de visión y la suerte estará de su lado (osea que el dado de suerte indica éxito), entonces el héroe podrá decidir si reclama 1 item raro más 1 item normal (usa 5 éxitos de visión) o 2 item normales (usa 4 éxitos de visión).
 
 4. *Fase de contacto*. En este caso el jugador podrá comunicarse con un NPC u otro héroe. Esto solo es cierto si dicho NPC o el héroe se encuentra en una celda adyacente al héroe jugador. De caso contrario ir al paso 5.
 
-  4.1.	Si se comunica con un NPC deberá leer su carta de comunicado, al reverso de la carta NPC y resolver si es así el caso. La información transmitida por el NPC al héroe es secreta y no se deberá revelar a los demás jugadores.
+    4.1.	Si se comunica con un NPC deberá leer su carta de comunicado, al reverso de la carta NPC y resolver si es así el caso. La información transmitida por el NPC al héroe es secreta y no se deberá revelar a los demás jugadores.
 
-  4.2.	Si se comunica con otro héroe este podrá intercambiar items y/o información. Para el caso de intercambio de items se podrá traspasar cualquier cantidad de items entre los jugadores. En el caso de compartir información, se podrá revelar la información de la comunicación establecida entre los héroes y NPC, para ser así el caso el portador de la información estará en acuerdo de compartir dicha información. Se permite el traspaso de información de terceros y/o mentir.
+    4.2.	Si se comunica con otro héroe este podrá intercambiar items y/o información. Para el caso de intercambio de items se podrá traspasar cualquier cantidad de items entre los jugadores. En el caso de compartir información, se podrá revelar la información de la comunicación establecida entre los héroes y NPC, para ser así el caso el portador de la información estará en acuerdo de compartir dicha información. Se permite el traspaso de información de terceros y/o mentir.
 
-5. Si el jugador aun posee movimientos de héroe volver al paso 1, de caso contrario termina su turno y se pasa el turno al siguiente jugador.
+5. *Fase final*. Si el jugador aun posee movimientos de héroe volver al paso 1, de caso contrario termina su turno y se pasa el turno al siguiente jugador.
 
 ### (b)	Fase de batalla
 
