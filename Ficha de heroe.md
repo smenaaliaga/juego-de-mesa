@@ -9,7 +9,8 @@ Las filas de la 4 a la 7 corresponden a los **stats de héroe** que si represent
 Al inicio de una partida cada jugador deberá rellenar su **ficha de héroe**. Para la *información de identificación* no tiene restricción de configuración y para los *stats de héroe* cada jugador cuenta con 5 *puntos de stats* que podrá asignar a la elección del jugador.
 
 
-| # |                 | Detalle                      |
+*Ficha de jugador*
+|'#'|                 | Detalle                      |
 |---|-----------------|------------------------------|
 | 1 | Nombre de héroe |                              |
 | 2 | Genero          |                              |
@@ -18,4 +19,3 @@ Al inicio de una partida cada jugador deberá rellenar su **ficha de héroe**. P
 | 5 | Resistencia     |   □  □  □  □  □  □           |
 | 6 | Agilidad        |   □  □  □  □  □  □           |
 | 7 | Visión          |   □  □  □  □  □  □           |
-*Ficha de jugador*
