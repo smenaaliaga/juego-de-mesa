@@ -10,6 +10,7 @@ Al inicio de una partida cada jugador deberá rellenar su **ficha de héroe**. P
 
 
 *Ficha de jugador*
+
 | # | Especificación    | Detalle                      |
 |---|-------------------|------------------------------|
 | 1 | Nombre de héroe   |                              |
