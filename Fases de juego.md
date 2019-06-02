@@ -1,15 +1,20 @@
 # Fases de juego
 
-La fase de juego se resuelve dependiendo de las condiciones o lugar de encuentro del jugador, existen tres tipos de fase: (a) fase de exploración, (b) fase de batalla y (c) fase de ciudad.
+La fase de juego corresponden a las dinámicas de juego resueltas por los jugadores. La fase de juego se resuelve dependiendo de las condiciones o lugar de encuentro del jugador, existen tres tipos de fase: (a) fase de exploración, (b) fase de batalla y (c) fase de ciudad.
 
 ### (a)	Fases de exploración.
 
 Dicha fase será efectiva si un héroe se encuentra en losetas de bioma.
 Cada fase se debe resolver tal como se indica a continuación, de no ser que un evento indique lo contrario, en dicho caso será modificada la fase indicada por el evento y no la totalidad de estos.
 
-1. *Movimientos de héroe*. Cada héroe durante un turno puede utilizar hasta 2 movimientos de héroe (a no ser que un evento especifique lo contrario). Un movimiento de héroe permite al héroe moverse un total de casillas 3 + N igual a los **stats de resistencia**. No es necesario que el héroe se mueva todos los espacios permitidos. Una vez se resuelve un movimiento de héroe se sigue ))al paso 2.
+1. *Movimientos de héroe*. Cada héroe durante un turno puede utilizar hasta 2 *movimiento de héroe*. Un *movimiento de héroe* permite al héroe moverse un total de 3 + N casillas, donde N es igual al número total de **stats de resistencia**. No es necesario que el héroe se mueva todos los espacios permitidos. Una vez se resuelve un movimiento de héroe se sigue al paso 2.
 
-2. *Fase de monstruos*. Un héroe tiene la opción de intentar no luchar contra un el/los monstruo(s). Si desea no pelear contra los monstruos deberá lanzar 3 dados de escape + N dados de escape igual al número de **stats de agilidad**. Para escapar deberá tener 3 aciertos.
+2. *Fase de monstruos*. Esta fase se caracteriza principalmente por la batalla que podría realizar los héroes versus los diversos monstruos.
+
+Sin embargo, un héroe antes de comenzar una batalla tendrá la opción de evadir
+tiene la opción de intentar no luchar contra un el/los monstruo(s). Si desea no pelear contra los monstruos deberá lanzar 3 dados de escape + N dados de escape igual al número de **stats de agilidad**. Para escapar deberá tener 3 aciertos.
+
+    2.1.  Antes de comenzar una lucha se debe resolver la cantidad monstruos y su clase. Para esto se lanzaran dos dados: Dado de **cantidad de monstruo** y dado de **clase**, el dado de clase debe ser especifico del bioma en cual se encuentre. Primero se resolverá el dado *cantidad de monstruo*, si este indica cero ir directamente al paso 3, no se lucha. De caso contrario se resolver los dados de *clase*, la clase indica el tipo de monstruo que enfrentara el héroe. Colocar alrededor del héroe el tipo y el número de monstruos (max. número = 3). 
 
     2.1.	Si se los dados son favorables ir al paso 3. De caso contrario ir al paso 2.2.
 
