@@ -10,13 +10,12 @@ Al inicio de una partida cada jugador deberá rellenar su **ficha de héroe**. P
 
 
 *Ficha de jugador*
-|'#'|                 | Detalle                      |
-|---|-----------------|------------------------------|
-| 1 | Nombre de héroe |                              |
-| 2 | Genero          |                              |
-| 3 | Edad            |                              |
-| 4 | Fuerza          |   □  □  □  □  □  □           |
-| 5 | Resistencia     |   □  □  □  □  □  □           |
-| 6 | Agilidad        |   □  □  □  □  □  □           |
-| 7 | Visión          |   □  □  □  □  □  □           |
->>>>>>> be865747521a587d148da4540a529430aa9418b0
+| # | Especificación    | Detalle                      |
+|---|-------------------|------------------------------|
+| 1 | Nombre de héroe   |                              |
+| 2 | Genero            |                              |
+| 3 | Edad              |                              |
+| 4 | Fuerza            |   □  □  □  □  □  □           |
+| 5 | Resistencia       |   □  □  □  □  □  □           |
+| 6 | Agilidad          |   □  □  □  □  □  □           |
+| 7 | Visión            |   □  □  □  □  □  □           |
