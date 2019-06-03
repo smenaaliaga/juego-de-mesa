@@ -11,10 +11,7 @@ Cada fase se debe resolver tal como se indica a continuación, de no ser que un 
 
 2. *Fase de monstruos*. Esta fase se caracteriza principalmente por la batalla que podría realizar los héroes versus los diversos monstruos.
 
-Sin embargo, un héroe antes de comenzar una batalla tendrá la opción de evadir
-tiene la opción de intentar no luchar contra un el/los monstruo(s). Si desea no pelear contra los monstruos deberá lanzar 3 dados de escape + N dados de escape igual al número de **stats de agilidad**. Para escapar deberá tener 3 aciertos.
-
-    2.1.  Antes de comenzar una lucha se debe resolver la cantidad monstruos y su clase. Para esto se lanzaran dos dados: Dado de **cantidad de monstruo** y dado de **clase**, el dado de clase debe ser especifico del bioma en cual se encuentre. Primero se resolverá el dado *cantidad de monstruo*, si este indica cero ir directamente al paso 3, no se lucha. De caso contrario se resolver los dados de *clase*, la clase indica el tipo de monstruo que enfrentara el héroe. Colocar alrededor del héroe el tipo y el número de monstruos (max. número = 3). 
+    2.1.  Antes de comenzar una lucha se debe resolver la cantidad monstruos y su clase. Para esto se lanzaran dos dados: Dado de **cantidad de monstruo** y dado de **clase**, el dado de clase debe ser especifico del bioma en cual se encuentre. Primero se resolverá el dado *cantidad de monstruo*, si este indica cero ir directamente al paso 3, no se lucha. De caso contrario se resolver los dados de *clase*, la clase indica el tipo de monstruo que enfrentara el héroe. Colocar alrededor del héroe el tipo y el número de monstruos (max. número = 3).
 
     2.1.	Si se los dados son favorables ir al paso 3. De caso contrario ir al paso 2.2.
 
@@ -26,7 +23,9 @@ tiene la opción de intentar no luchar contra un el/los monstruo(s). Si desea no
 
     2.5.	Para resolver este paso ver Fase de batalla.
 
-3. *Fase de búsqueda*. El jugador deberá lanzar dos dados de visión + N dados de visión igual al número de **stats de visión**, y un dado de suerte. Si el héroe consigue al menos 2 éxitos de visión y la suerte corre a su favor podrá conseguir items dependiendo de sus resultados.
+3. *Fase de búsqueda*. En esta fase el héroe buscará por los alrededores de su casilla diversos objetos que se podrán escondidos.
+
+El jugador deberá lanzar dos dados de visión + N dados de visión igual al número de **stats de visión**, y un dado de suerte. Si el héroe consigue al menos 2 éxitos de visión y la suerte corre a su favor podrá conseguir items dependiendo de sus resultados.
 
     3.1.	Si consigue 2N éxitos de visión podrá reclamar N item(s) normal(es). Se deberá barajar las cartas de item normal y sacar la cantidad señalada al azar.
 
