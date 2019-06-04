@@ -21,17 +21,17 @@ Cada fase se debe resolver tal como se indica a continuación, de no ser que un 
 
     2.4.	Si existe un héroe a dos casillas de distancia del héroe afectado por esta fase, el héroe afectado podrá solicitar su ayuda y este se incorporará a la batalla solo si este acepta.
 
-    2.5.	Para resolver este paso ver Fase de batalla.
+      2.5.	Para resolver este paso ver Fase de batalla.
 
-3. *Fase de búsqueda*. En esta fase el héroe buscará por los alrededores de su casilla diversos objetos que se podrán escondidos.
+  3. *Fase de búsqueda*. En esta fase el héroe buscará por los alrededores de su casilla diversos objetos que se podrán escondidos.
 
-El jugador deberá lanzar dos dados de visión + N dados de visión igual al número de **stats de visión**, y un dado de suerte. Si el héroe consigue al menos 2 éxitos de visión y la suerte corre a su favor podrá conseguir items dependiendo de sus resultados.
+    3.1.  Un héroe para buscar a su alrededor deberá lanzaran 2 + N **dados de visión**, siendo N igual al número total de **stats de visión**, y un **dado de suerte**. Si el héroe consigue al menos 2 éxitos de visión y la suerte corre a su favor (suerte en dado de suerte) podrá conseguir items dependiendo de sus resultados, considere los siguientes casos:
 
-    3.1.	Si consigue 2N éxitos de visión podrá reclamar N item(s) normal(es). Se deberá barajar las cartas de item normal y sacar la cantidad señalada al azar.
+    *Caso 1*:	Si consigue un número de éxitos igual a un múltiplo de 2, el héroe obtendrá R **items normales**, siendo R igual al residuo de la división entre en número de éxito y 2. Se debe barajar las cartas de *items normales* y se debe sacar un número de cartas igual al residuo.
 
-    3.2.	Si consigue 3N éxitos de visión podrá reclamar N item(s) raros. Se deberá barajar las cartas de item raro y sacar la cantidad señalada al azar.
+    *Caso 2*:	Si consigue un número de éxitos igual a un múltiplo de 3, el héroe obtendrá R **items raros**, siendo R igual al residuo de la división entre en número de éxito y 3. Se debe barajar las cartas de *items raros* y se debe sacar sacar un número de cartas igual al residuo.
 
-    3.3.	Puede obtener también un mix entre item normales y raros dependiendo de si el número de éxitos de visión lo permite. Por ejemplo, si un héroe posee 3 stats de visión deberá lanzar 5 dados de visión más 1 dado de suerte. Si tiene la suficiente suerte, conseguirá 5 éxitos de visión y la suerte estará de su lado (osea que el dado de suerte indica éxito), entonces el héroe podrá decidir si reclama 1 item raro más 1 item normal (usa 5 éxitos de visión) o 2 item normales (usa 4 éxitos de visión).
+    *Caso 3*:	Por otro lado, si el número de éxitos lo permite el jugador podrá escoger tanto *items raros* como *items normales*, siguiendo la lógica de los dos casos anteriores. Por ejemplo, si un héroe posee 3 stats de visión deberá lanzar 5 dados de visión más 1 dado de suerte. Si tiene la suficiente suerte, conseguirá 5 éxitos de visión y la suerte estará de su lado (osea que el dado de suerte indica éxito), entonces el héroe podrá decidir si reclama 1 item raro más 1 item normal (usa 5 éxitos de visión) o 2 item normales (usa 4 éxitos de visión).
 
 4. *Fase de contacto*. En este caso el jugador podrá comunicarse con un NPC u otro héroe. Esto solo es cierto si dicho NPC o el héroe se encuentra en una celda adyacente al héroe jugador. De caso contrario ir al paso 5.
 
@@ -44,3 +44,7 @@ El jugador deberá lanzar dos dados de visión + N dados de visión igual al nú
 ### (b)	Fase de batalla
 
 ### (c)	Fase de ciudad
+
+Dicha fase será efectiva si un héroe se encuentra en una loseta de pueblo o ciudad.
+
+1. Si ningún héroe se encuntra
