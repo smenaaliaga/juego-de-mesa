@@ -5,11 +5,9 @@ La fase de juego corresponden a las dinámicas de juego resueltas por los jugado
 ### (a)	Fases de exploración.
 
 Dicha fase será efectiva si un héroe se encuentra en losetas de bioma.
-Cada fase se debe resolver tal como se indica a continuación, de no ser que un evento indique lo contrario, en dicho caso será modificada el psso indicada por el evento y no la totalidad de estos.
+Cada fase se debe resolver tal como se indica a continuación, de no ser que un evento indique lo contrario, en dicho caso será modificada el paso indicado por el evento y no la totalidad de estos.
 
 1. *Movimientos de héroe*. Cada héroe durante un turno puede utilizar hasta 2 *movimiento de héroe*. Un *movimiento de héroe* permite al héroe moverse un total de 3 + N casillas, donde N es igual al número total de **stats de resistencia**. No es necesario que el héroe se mueva todos los espacios permitidos. Si el jugador termina su movimiento dentro de un poblado o ciudad ir a la (c) **Fase de batalla**. Si termina en una loseta de bioma ir al paso 2.
-
-Una vez se resuelve un movimiento de héroe se sigue al paso 2.
 
 2. *Fase de monstruos*. Esta fase se caracteriza principalmente por la batalla que podría realizar los héroes versus los diversos monstruos.
 
